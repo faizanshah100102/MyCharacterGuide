@@ -11,8 +11,8 @@ import Banner from "./pages/Banner";
 
 function Guide() {
   const [name, setName] = useState('Furina');
-  const [bgArt, setBgArt] = useState('/Art/furinaNC.png');
-  const [CharArt, setCharArt] = useState('/Art/furina.png');
+  const [bgArt, setBgArt] = useState('/Art/furinaNC.webp');
+  const [CharArt, setCharArt] = useState('/Art/furina.webp');
   const [theme, setTheme] = useState('#3d37d4ff');
 
   const [isEditing, setIsEditing] = useState(false);
